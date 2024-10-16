@@ -5,6 +5,7 @@ gem "puma", ">= 5.0"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "bootsnap", require: false
 gem "active_model_serializers", "~> 0.10.14"
+gem "rack-cors", "~> 2.0"
 
 group :development, :test do
   gem "sqlite3", ">= 1.4"
