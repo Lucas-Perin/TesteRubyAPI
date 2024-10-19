@@ -12,11 +12,18 @@ group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
   gem "brakeman", require: false
   gem "rubocop-rails-omakase", require: false
+  gem "rspec-rails", "~> 7.0"
+end
+
+group :test do
+  gem "shoulda-matchers", "~> 6.4"
+  gem "simplecov", "~> 0.22.0", require: false
 end
 
 group :development do
   gem "faker", "~> 3.4"
 end
+
 group :production do
   gem "pg", "~> 1.5"
 end
