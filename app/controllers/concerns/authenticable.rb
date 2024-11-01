@@ -5,7 +5,7 @@ module Authenticable
 
     unless valid_token?
       render json: {
-                      errors: "Forneça um header Authorization para se identificar."
+                      errors: "Provide an Authorization header to identify yourself."
                    },
              status: :unauthorized
     end

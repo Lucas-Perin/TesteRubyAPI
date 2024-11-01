@@ -6,6 +6,7 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "bootsnap", require: false
 gem "active_model_serializers", "~> 0.10.14"
 gem "rack-cors", "~> 2.0"
+gem "rubocop", require: false
 
 group :development, :test do
   gem "sqlite3", ">= 1.4"
