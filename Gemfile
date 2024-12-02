@@ -4,7 +4,7 @@ gem "rails", "~> 7.2.1"
 gem "puma", ">= 5.0"
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "bootsnap", require: false
-gem "active_model_serializers", "~> 0.10.14"
+gem "active_model_serializers", "~> 0.10.15"
 gem "rack-cors", "~> 2.0"
 gem "rubocop", require: false
 
