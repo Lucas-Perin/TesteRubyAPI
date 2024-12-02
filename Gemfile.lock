@@ -97,7 +97,7 @@ GEM
     docile (1.4.1)
     drb (2.2.1)
     erubi (1.13.0)
-    faker (3.4.2)
+    faker (3.5.1)
       i18n (>= 1.8.11, < 2)
     globalid (1.2.1)
       activesupport (>= 6.1)
@@ -275,7 +275,7 @@ DEPENDENCIES
   bootsnap
   brakeman
   debug
-  faker (~> 3.4)
+  faker (~> 3.5)
   pg (~> 1.5)
   puma (>= 5.0)
   rack-cors (~> 2.0)

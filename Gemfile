@@ -22,7 +22,7 @@ group :test do
 end
 
 group :development do
-  gem "faker", "~> 3.4"
+  gem "faker", "~> 3.5"
 end
 
 group :production do
